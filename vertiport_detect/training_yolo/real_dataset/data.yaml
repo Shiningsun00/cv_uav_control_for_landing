@@ -1,0 +1,5 @@
+train: /home/haechan/Repo_2025/machine_AI/vertiport_detect/real_dataset/train/images
+val: /home/haechan/Repo_2025/machine_AI/vertiport_detect/real_dataset/valid/images
+test: /home/haechan/Repo_2025/machine_AI/vertiport_detect/real_dataset/test/images
+nc: 3
+names: ['ArUro mark', 'rescue point', 'vertiport']
