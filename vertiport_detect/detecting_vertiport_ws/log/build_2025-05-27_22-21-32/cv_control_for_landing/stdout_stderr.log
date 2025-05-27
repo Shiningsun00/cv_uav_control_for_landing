@@ -1,0 +1,31 @@
+running egg_info
+writing ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/PKG-INFO
+writing dependency_links to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/dependency_links.txt
+writing entry points to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/entry_points.txt
+writing requirements to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/requires.txt
+writing top-level names to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/top_level.txt
+reading manifest file '../../build/cv_control_for_landing/cv_control_for_landing.egg-info/SOURCES.txt'
+writing manifest file '../../build/cv_control_for_landing/cv_control_for_landing.egg-info/SOURCES.txt'
+running build
+running build_py
+copying cv_control_for_landing/RealSenseCameraLauncher.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+copying cv_control_for_landing/yolo_center_publisher.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+copying cv_control_for_landing/realsense_viewer.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+copying cv_control_for_landing/__init__.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+copying cv_control_for_landing/vertiport_landing_control.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+running install
+running install_lib
+copying /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing/vertiport_landing_control.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing
+byte-compiling /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing/vertiport_landing_control.py to vertiport_landing_control.cpython-310.pyc
+running install_data
+copying resource/cv_control_for_landing -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/ament_index/resource_index/packages
+copying package.xml -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/cv_control_for_landing
+copying launch/realsense_launch.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/cv_control_for_landing/launch
+running install_egg_info
+removing '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cv_control_for_landing/cv_control_for_landing.egg-info to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing-0.0.0-py3.10.egg-info
+running install_scripts
+Installing realsense_viewer script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+Installing vertiport_landing_control script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+Installing yolo_center_publisher script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+writing list of installed files to '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/install.log'

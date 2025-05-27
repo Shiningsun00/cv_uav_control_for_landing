@@ -1,0 +1,38 @@
+[0.682s] Invoking command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/cv_control_for_landing': PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv_control_for_landing build --build-base /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build install --record /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/install.log --single-version-externally-managed install_data
+[0.862s] running egg_info
+[0.874s] writing ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/PKG-INFO
+[0.874s] writing dependency_links to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/dependency_links.txt
+[0.874s] writing entry points to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/entry_points.txt
+[0.875s] writing requirements to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/requires.txt
+[0.875s] writing top-level names to ../../build/cv_control_for_landing/cv_control_for_landing.egg-info/top_level.txt
+[0.901s] reading manifest file '../../build/cv_control_for_landing/cv_control_for_landing.egg-info/SOURCES.txt'
+[0.904s] writing manifest file '../../build/cv_control_for_landing/cv_control_for_landing.egg-info/SOURCES.txt'
+[0.904s] running build
+[0.904s] running build_py
+[0.904s] copying cv_control_for_landing/RealSenseCameraLauncher.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+[0.904s] copying cv_control_for_landing/yolo_center_publisher.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+[0.904s] copying cv_control_for_landing/realsense_viewer.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+[0.904s] copying cv_control_for_landing/__init__.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+[0.905s] copying cv_control_for_landing/vertiport_landing_control.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing
+[0.905s] running install
+[0.909s] running install_lib
+[0.923s] copying /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build/lib/cv_control_for_landing/yolo_center_publisher.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing
+[0.923s] byte-compiling /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing/yolo_center_publisher.py to yolo_center_publisher.cpython-310.pyc
+[0.924s]   File "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing/yolo_center_publisher.py", line 78
+[0.924s]     depth_value = self.latest_depth_image[cy, cx]  mm 단위
+[0.924s]                                                    ^^
+[0.924s] SyntaxError: invalid syntax
+[0.924s] 
+[0.924s] running install_data
+[0.925s] copying resource/cv_control_for_landing -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/ament_index/resource_index/packages
+[0.925s] copying package.xml -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/cv_control_for_landing
+[0.925s] copying launch/realsense_launch.py -> /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/share/cv_control_for_landing/launch
+[0.925s] running install_egg_info
+[0.938s] removing '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing-0.0.0-py3.10.egg-info' (and everything under it)
+[0.939s] Copying ../../build/cv_control_for_landing/cv_control_for_landing.egg-info to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing-0.0.0-py3.10.egg-info
+[0.939s] running install_scripts
+[1.050s] Installing realsense_viewer script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+[1.050s] Installing vertiport_landing_control script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+[1.050s] Installing yolo_center_publisher script to /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/cv_control_for_landing
+[1.051s] writing list of installed files to '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/install.log'
+[1.084s] Invoked command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/cv_control_for_landing' returned '0': PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cv_control_for_landing build --build-base /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/build install --record /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/cv_control_for_landing/install.log --single-version-externally-managed install_data

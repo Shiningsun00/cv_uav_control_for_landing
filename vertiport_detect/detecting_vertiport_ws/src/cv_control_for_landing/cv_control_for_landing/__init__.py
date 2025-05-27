@@ -1,1 +1,3 @@
 from .RealSenseCameraLauncher import RealSenseCameraLauncher
+
+from .yolo_center_publisher import YOLOCenterPublisher

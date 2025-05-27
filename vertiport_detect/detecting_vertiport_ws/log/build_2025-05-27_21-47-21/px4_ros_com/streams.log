@@ -1,0 +1,154 @@
+[0.008s] Invoking command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com
+[0.012s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.012s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.013s]   CMake.
+[0.013s] 
+[0.013s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.013s]   to tell CMake that the project requires at least <min> but has been updated
+[0.013s]   to work with policies introduced by <max> or earlier.
+[0.013s] 
+[0.013s] [0m
+[0.050s] -- The C compiler identification is GNU 13.1.0
+[0.093s] -- The CXX compiler identification is GNU 13.1.0
+[0.097s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.158s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.158s] -- Detecting C compile features
+[0.159s] -- Detecting C compile features - done
+[0.168s] -- Detecting CXX compiler ABI info
+[0.225s] -- Detecting CXX compiler ABI info - done
+[0.235s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.235s] -- Detecting CXX compile features
+[0.235s] -- Detecting CXX compile features - done
+[0.245s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.340s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter
+[0.398s] -- Found builtin_interfaces: 1.2.1 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.419s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.422s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.427s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.434s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.455s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[0.460s] -- Found Eigen3: TRUE (found version "3.4.0")
+[0.461s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.481s] -- Found px4_msgs: 2.0.1 (/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/share/px4_msgs/cmake)
+[0.490s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.514s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.515s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.585s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")
+[0.606s] -- Found FastRTPS: /opt/ros/humble/include
+[0.635s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.640s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.695s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.696s] -- Found Threads: TRUE
+[0.724s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.740s] -- Found rclpy: 3.3.16 (/opt/ros/humble/share/rclpy/cmake)
+[0.745s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.808s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.809s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.810s] -- Configured cppcheck include dirs: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/px4_ros_com/include;$<BUILD_INTERFACE:/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/px4_ros_com/include/px4_ros_com>
+[0.810s] -- Configured cppcheck exclude dirs and/or files: 
+[0.812s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.812s] -- Configured cpplint exclude dirs and/or files: 
+[0.812s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.813s] -- Added test 'lint_cmake' to check CMake code style
+[0.813s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.815s] -- Added test 'uncrustify' to check C / C++ code style
+[0.816s] -- Configured uncrustify additional arguments: 
+[0.816s] -- Added test 'xmllint' to check XML markup files
+[0.817s] -- Configuring done (0.8s)
+[0.835s] -- Generating done (0.0s)
+[0.839s] -- Build files have been written to: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com
+[0.850s] Invoked command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/src/px4_ros_com -DCMAKE_INSTALL_PREFIX=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com
+[0.851s] Invoking command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com -- -j16 -l16
+[0.875s] [ 16%] [32mBuilding CXX object CMakeFiles/sensor_combined_listener.dir/src/examples/listeners/sensor_combined_listener.cpp.o[0m
+[0.876s] [ 16%] [32mBuilding CXX object CMakeFiles/frame_transforms.dir/src/lib/frame_transforms.cpp.o[0m
+[0.876s] [ 25%] [32mBuilding CXX object CMakeFiles/debug_vect_advertiser.dir/src/examples/advertisers/debug_vect_advertiser.cpp.o[0m
+[0.876s] [ 33%] [32mBuilding CXX object CMakeFiles/vehicle_gps_position_listener.dir/src/examples/listeners/vehicle_gps_position_listener.cpp.o[0m
+[0.876s] [ 41%] [32mBuilding CXX object CMakeFiles/offboard_control.dir/src/examples/offboard/offboard_control.cpp.o[0m
+[0.876s] [ 50%] [32mBuilding CXX object CMakeFiles/offboard_control_srv.dir/src/examples/offboard/offboard_control_srv.cpp.o[0m
+[0.879s] [ 50%] Built target ament_cmake_python_copy_px4_ros_com
+[1.036s] running egg_info
+[1.053s] creating px4_ros_com.egg-info
+[1.053s] writing px4_ros_com.egg-info/PKG-INFO
+[1.054s] writing dependency_links to px4_ros_com.egg-info/dependency_links.txt
+[1.054s] writing top-level names to px4_ros_com.egg-info/top_level.txt
+[1.054s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.097s] reading manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.098s] writing manifest file 'px4_ros_com.egg-info/SOURCES.txt'
+[1.127s] [ 50%] Built target ament_cmake_python_build_px4_ros_com_egg
+[3.775s] [ 58%] [32m[1mLinking CXX executable debug_vect_advertiser[0m
+[3.922s] [ 58%] Built target debug_vect_advertiser
+[4.264s] [ 66%] [32m[1mLinking CXX executable offboard_control[0m
+[4.436s] [ 66%] Built target offboard_control
+[4.596s] [ 75%] [32m[1mLinking CXX executable offboard_control_srv[0m
+[4.756s] [ 75%] Built target offboard_control_srv
+[5.980s] [ 83%] [32m[1mLinking CXX shared library libframe_transforms.so[0m
+[6.138s] [ 83%] Built target frame_transforms
+[6.300s] [ 91%] [32m[1mLinking CXX executable sensor_combined_listener[0m
+[6.352s] [100%] [32m[1mLinking CXX executable vehicle_gps_position_listener[0m
+[6.511s] [100%] Built target sensor_combined_listener
+[6.557s] [100%] Built target vehicle_gps_position_listener
+[6.563s] Invoked command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com -- -j16 -l16
+[6.564s] Invoking command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com
+[6.567s] -- Install configuration: ""
+[6.567s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener
+[6.570s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/sensor_combined_listener" to ""
+[6.570s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener
+[6.573s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/vehicle_gps_position_listener" to ""
+[6.573s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser
+[6.574s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/debug_vect_advertiser" to ""
+[6.574s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control
+[6.575s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control" to ""
+[6.575s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv
+[6.576s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control_srv" to ""
+[6.576s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.sh
+[6.576s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/library_path.dsv
+[6.576s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/include/px4_ros_com
+[6.576s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/include/px4_ros_com/frame_transforms.h
+[6.577s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/libframe_transforms.so
+[6.580s] -- Set non-toolchain portion of runtime path of "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/libframe_transforms.so" to ""
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//launch
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//launch/offboard_control_launch.yaml
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//launch/sensor_combined_listener.launch.py
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//test
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//test/test_output.py
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//test/test_input.py
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//test/pipeline_io_test.py
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com//test/__init__.py
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.sh
+[6.580s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/pythonpath.dsv
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/dependency_links.txt
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/top_level.txt
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/SOURCES.txt
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com-0.1.0-py3.10.egg-info/PKG-INFO
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py
+[6.581s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py
+[6.601s] Listing '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com'...
+[6.601s] Compiling '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/__init__.py'...
+[6.602s] Compiling '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/local/lib/python3.10/dist-packages/px4_ros_com/module_to_import.py'...
+[6.604s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/lib/px4_ros_com/offboard_control.py
+[6.605s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/ament_index/resource_index/package_run_dependencies/px4_ros_com
+[6.605s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/ament_index/resource_index/parent_prefix_path/px4_ros_com
+[6.605s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.sh
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/ament_prefix_path.dsv
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/path.sh
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/environment/path.dsv
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/local_setup.bash
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/local_setup.sh
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/local_setup.zsh
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/local_setup.dsv
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/package.dsv
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/ament_index/resource_index/packages/px4_ros_com
+[6.606s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/export_frame_transformsExport-noconfig.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_targets-extras.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/ament_cmake_export_libraries-extras.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/cmake/px4_ros_comConfig-version.cmake
+[6.607s] -- Installing: /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_ros_com/share/px4_ros_com/package.xml
+[6.609s] Invoked command in '/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com' returned '0': AMENT_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs:/home/haechan/cmake-install:/home/haechan/cmake-install:/home/haechan/cmake-install:/opt/ros/humble LD_LIBRARY_PATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/px4_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/build/px4_ros_com

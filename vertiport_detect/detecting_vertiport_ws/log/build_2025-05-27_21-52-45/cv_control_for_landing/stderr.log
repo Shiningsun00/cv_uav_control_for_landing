@@ -1,0 +1,5 @@
+  File "/home/haechan/Repo_2025/machine_AI/cv_uav_control_for_landing/vertiport_detect/detecting_vertiport_ws/install/cv_control_for_landing/lib/python3.10/site-packages/cv_control_for_landing/yolo_center_publisher.py", line 78
+    depth_value = self.latest_depth_image[cy, cx]  mm 단위
+                                                   ^^
+SyntaxError: invalid syntax
+

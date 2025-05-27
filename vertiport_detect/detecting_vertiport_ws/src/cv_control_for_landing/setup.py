@@ -24,6 +24,7 @@ setup(
         "console_scripts": [
                 'yolo_center_publisher = cv_control_for_landing.yolo_center_publisher:main',
                 'realsense_viewer = cv_control_for_landing.realsense_viewer:main',
+                'vertiport_landing_control = cv_control_for_landing.vertiport_landing_control:main',
             ],
     },
 )
